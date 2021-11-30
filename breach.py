@@ -1,11 +1,7 @@
+# Copyright ©: Miguel Oleo Blanco 
+
 import requests
 import time
-
-# Práctica de BREACH:
-# Miguel Oleo Blanco
-# Álvaro Bayona
-# Juan Merino
-# Vincent Zamora
 
 URL = "http://malbot.net/poc/?request_token=%27"
 MASK = "..........."
